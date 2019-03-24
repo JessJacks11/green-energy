@@ -1,0 +1,253 @@
+/*Colours*/
+
+/*Cyan: #10BEF0
+Grey: #424142
+Black: #000000*/
+
+/*General styles*/
+
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../img/staticbg.jpg);
+    overflow-x: hidden;
+}
+
+
+.wrapper {
+    min-width: 360px;
+    max-width: 60rem;
+    margin: auto;
+}
+
+
+h1 {
+    background-color: black;
+    color: #0CBDEF;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    padding: 15px;
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+button {
+    background-color: transparent;
+    padding: none;
+    margin: none;
+    border-radius: 0px;
+    border: none;
+}
+
+/*Nav styles*/
+
+#nav-logo {
+    width: 50px;
+}
+
+nav {
+    background-color: white;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+nav i {
+    vertical-align: middle;
+    font-size: 1.6em;
+}
+
+nav a {
+    color: black;
+    text-align: center;
+}
+
+.dropdown-menu {
+    border: none;
+    text-align: center;
+}
+
+.dropdown-menu a {
+    color: #0CBDEF;
+}
+
+.dropdown-menu a:hover {
+    color: black;
+    background-color: #0CBDEF;
+}
+
+
+/*Portfolio page styles*/
+
+main {
+    margin-top: 75px;
+}
+
+.jumbotron {
+    background: none;
+    border: solid 2px #0CBDEF;
+    margin 10px;
+    border-radius: 0px;
+}
+
+.jumbotron #jumbo-intro {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 900;
+    
+}
+
+.jumbotron h2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 20px;
+    color: #0CBDEF;
+}
+
+.jumbo-img {
+    max-height: 500px;
+    max-width: 236.656px;
+    height: auto;
+    object-fit: fill;
+    
+}
+
+
+hr {
+    background-color: #0CBDEF;
+    height: 2px;
+    width: 80%;
+}
+
+.jumbotron .port-button {
+    padding: 0;
+}
+
+.port-button p {
+        margin-bottom: 0;
+}
+
+.jumbotron button p{
+    padding: 5px;
+    text-align: center;
+    color: #0CBDEF;
+}
+
+.jumbotron button p:hover {
+    background-color: #0CBDEF;
+    color: black;
+    text-decoration: none;
+    transition: 1.5s ease;
+}
+
+#button-active {
+    background-color: #0CBDEF;
+    color: black; 
+}
+
+
+/*Footer styles*/
+
+footer {
+    background-color: #414041;
+    box-shadow: 0 50vh 0 50vh #414041;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-align: center;
+}
+
+footer a i {
+    font-size: 1.2em;
+
+}
+
+footer a p {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+}
+
+footer a:hover {
+    color: #0CBDEF;
+    text-decoration: none; 
+}
+
+footer a i:hover {
+    transition: 1.5s ease;
+    font-size: 2em;
+}
+
+footer a p:hover {
+    color: #0CBDEF;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+/*Styles for Table size viewport*/
+
+@media (min-width: 768px) {
+    
+        nav li {
+        margin-right: 50px;
+    }
+    
+    nav li:first-of-type {
+        margin-left: 50px
+    }
+    
+    /* Portfolio Page*/
+    
+    .jumbotron {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .jumbotron h2 {
+        font-size: 2em
+    }
+    
+    footer {
+        clear: both;
+    }
+    
+    .jumbotron button p{
+        border: double 5px #0CBDEF;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    
+}
