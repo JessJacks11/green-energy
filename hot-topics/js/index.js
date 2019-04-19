@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll("header .header-container nav ul li a");
 const container = document.querySelector(".content-container");
 
-let path = "https://jessjacks11.github.io/green-energy/hot-topics/artials/home.html";
+let path = "https://jessjacks11.github.io/green-energy/hot-topics/partials/home.html";
 
 function handleClick(ev) {
     ev.preventDefault();
